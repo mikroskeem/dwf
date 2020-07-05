@@ -14,7 +14,7 @@ RUN    curl -L -o /dwarfpack.tar.bz2 https://github.com/McArcady/lnp-forge/relea
     && rm /dwarfpack.tar.bz2
 
 # what...
-RUN    mv -v /dwarfpack/game/bin/dwarftherapist /dwarfpack/game/bin/DwarfTherapist
+RUN    ln -svf dwarftherapist /dwarfpack/game/bin/DwarfTherapist
 
 # Savegames
 RUN    ln -svf /data/save /dwarfpack/game/df_47_04_linux/data/save
