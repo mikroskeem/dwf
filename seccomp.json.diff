@@ -1,0 +1,17 @@
+--- seccomp.json.orig	2020-07-05 23:57:36.558227505 +0300
++++ seccomp.json	2020-07-05 23:56:43.628683594 +0300
+@@ -230,6 +230,7 @@
+ 				"open",
+ 				"openat",
+ 				"pause",
++				"personality",
+ 				"pipe",
+ 				"pipe2",
+ 				"poll",
+@@ -816,4 +817,4 @@
+ 			"excludes": {}
+ 		}
+ 	]
+-}
+\ No newline at end of file
++}
