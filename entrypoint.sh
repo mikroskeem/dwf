@@ -3,7 +3,7 @@ set -e
 
 export PATH="${JAVA_HOME}/bin:${PATH}"
 
-mkdir -p /data/saves
+mkdir -p /data/save
 if ! [ -f /data/PyLNP.user ]; then
 	cat > /data/PyLNP.user <<EOF
 {
