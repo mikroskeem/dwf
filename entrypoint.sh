@@ -12,7 +12,9 @@ if ! [ -f /data/PyLNP.user ]; then
 	cat > /data/PyLNP.user <<EOF
 {
   "tkgui_height": 800,
-  "tkgui_width": 600
+  "tkgui_width": 600,
+  "terminal": "xterm -bg black -fg white -e",
+  "terminal_type": "Custom command"
 }
 EOF
 fi
